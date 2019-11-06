@@ -1,4 +1,4 @@
-package com.microsoft.demo;
+/* package com.microsoft.demo;
 
 public class Demo {
     public void DoSomething(boolean flag){
@@ -9,4 +9,4 @@ public class Demo {
 
         System.out.println("I am not covered");
     }
-}
+} */
