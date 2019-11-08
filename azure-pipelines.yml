@@ -1,4 +1,12 @@
 # Maven
+- task: VSTest@2
+  inputs:
+    testSelector: 'testAssemblies'
+    testAssemblyVer2: |
+      **\*test*.dll
+      !**\*TestAdapter.dll
+      !**\obj\**
+    searchFolder: '$(System.DefaultWorkingDirectory)'
 - task: versioncounter@1
   inputs:
     VersionVariable: '1.0.0'
